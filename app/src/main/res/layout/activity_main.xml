@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/arena"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:adjustViewBounds="true"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arena"
+                app:layout_constraintVertical_bias="0.487">
+
+                <Button
+                    android:id="@+id/btnHist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="clickHist"
+                    android:text="@string/strHistorico"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/btnEscudos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="clickEscudos"
+                    android:text="@string/strEscudos"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/btnUni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="clickUni"
+                    android:text="@string/strUniforme"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="19sp"
+                    tools:text="Uniforme Oficial" />
+
+                <Button
+                    android:id="@+id/btnTitulos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="clickTitulos"
+                    android:text="@string/strTitulos"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/btnIdolos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="clickIdolos"
+                    android:text="@string/strIdolos"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/btnTorcida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="clickTorcida"
+                    android:text="@string/strTorcida"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/btnEstadio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="clickEstadio"
+                    android:text="@string/strEstadio"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="19sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/strDireitos"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Direitos Reservados para Sócios" />
+
+</android.support.constraint.ConstraintLayout>

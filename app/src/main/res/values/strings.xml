@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Arena Vozão</string>
+    <string name="strHistorico">Hitórico</string>
+    <string name="strEstadio">Estádio</string>
+    <string name="strUniforme">Uniforme Oficial</string>
+    <string name="strIdolos">Idolos</string>
+    <string name="strTitulos">Títulos</string>
+    <string name="strTorcida">Torcida</string>
+    <string name="strDireitos">Direitos Reservados a sócios</string>
+    <string name="strEscudos">Escudos</string>
+    <string name="strVoltar">Voltar</string>
+    <string name="strHistoricoTxt">O Nascimento do Ceará Sportng Club</string>
+    <string name="strHistoria">
+        \tA ideia de fundar o <b>Ceará Sporting Club</b> veio no dia 2 de junho de 1914,
+        pelos jovens Luís Esteves Júnior e Pedro Freire, durante um encontro à tarde no Café Art Noveau,
+        que funcionava na Praça do Ferreira. Neste encontro, eles resolveram convidar mais alguns amigos
+        para discutirem a ideia e se reunirem à noite na residência de Luís Esteves.
+
+        \n\tA empolgação tomou conta de todos e logo foi providenciada a ata de fundação do, até então, Rio Branco Foot-ball Club.
+        Participaram do histórico encontro 24 pessoas que, por unanimidade, escolheram Gilberto Gurgel como presidente.
+
+        \n\tPara ajudar na aquisição do primeiro material, composto de camisas lilases e calções brancos, o grupo juntou dois mil e duzentos réis. No ano de seu surgimento,
+        o Rio Branco disputou um campeonato, que foi organizado pelos próprios clubes da época. Na partida final, realizada em 22 de outubro, o Rio Branco conquistou o título,
+        vencendo o Rio Negro por 1x0, gol assinalado por Olsen.
+
+        \n\tExatamente um ano depois da sua fundação, uma assembléia geral se reúne com dois objetivos: escolher um novo nome para a equipe e eleger a nova diretoria.
+        Por consenso, a agremiação passou a se chamar Ceará Sporting Club. Sua indumentária também mudou: calções brancos e camisas brancas com listas verticais pretas.
+    </string>
+    <string name="strHistoriaTetraUm">PRIMEIRO TRETRA CAMPEONATO EM 78</string>
+    <string name="strHistoricoRetro">HOMENAGEM DA PENALTY COM UNIFORME RETRÔ</string>
+    <string name="strHistoriaBiCea">TIME BICAMPEÃO CEARENSE 80/81</string>
+    <string name="strHistoricoElenco">ELENCO BASE - SERIE A 2010/2011</string>
+    <string name="strHistoricoCampeaoNordeste">TIME CAMPEÃO - COPA DO NORDESTE 2015</string>
+    <string name="strTituloEscudos">HISTÓRICO DE ESCUDOS</string>
+    <string name="strUniformeTxt">UNIFORMES OFICIAIS - 100% ATUALIZADO</string>
+    <string name="strTitular">CAMISA 01</string>
+    <string name="strIdolosTxr">IDOLOS HISTÓRICOS</string>
+    <string name="strTorcidaCearamor">TORCIDA MAIS APAIXONADA</string>
+    <string name="strEstadiosTxt">ESTÁDIOS DE ATUAÇÃO COMO MANDATE</string>
+    <string name="strArenaCast">ARENA CASTEÃO - Fortaleza-CE</string>
+    <string name="strEstadioPV">ESTÁDIO PV - Fortaleza-CE</string>
+</resources>
